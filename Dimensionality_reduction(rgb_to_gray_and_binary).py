@@ -26,11 +26,9 @@ def converter_para_preto_branco(dados, largura, altura, limiar=128):
         nova_imagem.extend([valor_binario, valor_binario, valor_binario])
     return nova_imagem
 
-# Exemplo de uso
-# Substitua 'imagem.rgb' pelo caminho da sua imagem RGB e especifique a largura e altura
-caminho_imagem = 'Lena.raw'
-largura, altura = 850, 850  # Substitua pelas dimensões da sua imagem
 
+caminho_imagem = 'Lena.raw'
+largura, altura = 850, 850  
 # Lê os dados da imagem RGB
 dados_rgb = ler_imagem(caminho_imagem)
 
